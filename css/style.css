@@ -152,6 +152,13 @@ padding-bottom: 50px;
 
 }
 
+
+.ic-telescope:before {
+	content: "\e02a";
+	font-size: 40px;
+	padding-left: 160px;
+}
+
 .hocvan{
     gap: 10px;
     width: 32%;
@@ -349,6 +356,7 @@ padding-bottom: 50px;
 
 
 .footer0{
+    font-size: 20px;
     display: flex;
     justify-content: center;
     gap: 30px;
