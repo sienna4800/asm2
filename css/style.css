@@ -37,7 +37,7 @@ section > .container{
         background-image: url('../images/banner.jpg');
         align-items: center;
         background-size: cover;
-        color: white;
+        color: black;
     }
 
 /* .name{
@@ -46,11 +46,6 @@ section > .container{
     width: 95%;
     text-align: center;
 } */
-
-
-.bannername{
-    
-}
 
 
 .container{
@@ -361,4 +356,9 @@ padding-bottom: 50px;
     justify-content: center;
     gap: 30px;
     color: navy;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
