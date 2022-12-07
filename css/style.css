@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    /* display: block; */
+    font-family: sans-serif;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    /* display: block; */
+    padding: 30px 0;
+}
+
+#nav-bar {
+    /* text-align: center; */
+    /* flex-basis:100px; */
+}
+                    /* ---------------------------------------------------------------------------------------------------- */
+
+/* #banner{
+    position: absolute;
+    background-image: url(/images/banner.jpg);
+    background-size:cover;
+    /* height: 800px;
+    width: 94.8%; */
+    /* display: inline-block; }*/
+
+    #banner{
+        display: flex;
+        height: 500px;
+        position: relative;
+        justify-content: center;
+        background-image: url('../images/banner.jpg');
+        align-items: center;
+        background-size: cover;
+        color: white;
+    }
+
+/* .name{
+    position:absolute;
+    top: 40%;
+    width: 95%;
+    text-align: center;
+} */
+
+
+.bannername{
+    
+}
+
+
+.container{
+    /* display: flex; */
+    /* text-align: center; */
+    gap: 50px;
+}
+
+
+.name1{
+    display: inline;
+}
+
+#container00{
+    display: flex;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+#target{
+    /* justify-items: center; */
+    width: 50%;
+}
+
+.mt-40-info{
+    /* height: 200px; */
+    line-height: 1.8;
+    padding-inline-start: 0;
+}
+
+
+.section-title , .chungchi-title{
+padding-bottom: 50px;
+
+}
+
+.presentation{
+    line-height: 1.8;
+}
+
+
+#personal-info{
+    width: 50%;
+}
+
+.logo-{
+    color: rgba(16, 171, 210, 0.99);
+}
+
+
+
+.point {
+    border: 2px solid rgb(10, 172, 194);
+    width: 30px;
+    display: block;
+}
+
+.point0{
+    border: 2px solid rgb(151, 138, 138);
+    width: 30px;
+    display: block;
+}
+
+#job-info {
+    display: grid;
+}
+
+.line{
+    display: flex;
+    gap: 5px;
+}
+
+.kinhnghiem{
+    /* display: flex; */
+    gap: 10px;
+    width: 32%;
+    margin-right: 2%;
+    border: 1px solid #e1e1e1;
+   
+}
+
+.contentkinhnghiem , .contenthocvan , .contentngonngu , .contenthoatdong{
+    line-height:2;
+    /* background-color: rgb(235, 223, 223); */
+    padding: 9%;
+}
+
+
+.ic-toolbox , .ic-pencil , .ic-mic{ 
+    font-size:40px ;
+    padding-left: 30%;
+    padding-right: 5%;
+
+}
+
+.hocvan{
+    gap: 10px;
+    width: 32%;
+    margin-right: 2%;
+    border: 1px solid #e1e1e1;
+}
+
+.ngonngu{
+    width: 32%;
+    margin-right:0;
+    border: 1px solid #e1e1e1;
+}
+.ngonngu1{
+    padding-bottom: 20%;
+}
+
+.pinside{
+    padding-bottom: 3%;
+}
+
+.sothich{
+    width: 20px;
+}
+
+.hoatdong{
+    width: 32%;
+    gap: 10px;
+    margin-right: 2%;
+    border: 1px solid #e1e1e1;
+}
+
+.kinang{
+    gap: 10px;
+    width: 32%;
+    margin-right: 2%;
+    border: 1px solid #e1e1e1;
+}
+
+.contenttitle{
+    display: flex;
+    padding-top: 10%;
+}
+
+#certificate{
+    padding-left: 200px;
+}
+.inf1{
+    display: flex;
+   
+}
+
+.inf2{
+    display: flex;
+}
+
+#job-info{
+    display:inline
+}
+.contentkinhnghiem h5{
+    font-weight: unset;
+    font-style: italic;
+    color: gray;
+}
+.recent {
+    background-color: #199cdb;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 15px;
+    font-style: italic;
+}
+
+.contentsothich{
+    display: flex;
+    text-align: center;
+    gap: 5%;
+    font-size: 120%;
+}
+
+.ic-megaphone , .ic-strategy , .ic-hotairballoon , .ic-basket {
+    font-size: 30px;
+    color: rgb(222, 121, 14);
+    box-sizing: content-box;
+}
+
+.titlesothich {
+    padding-bottom: 6%;
+}
+
+
+.imgchungchi , .imgchungchi2{
+    height: 200px;
+    width: 200px;
+    padding-left: 19%;
+}
+
+.chungchi1 , .chungchi2{
+    display: flex;
+    line-height: 2;
+    
+}
+
+
+.chungchi1{
+    width: 50%;
+}
+
+.contentchungchi{
+    display:inline-flex;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 2%;
+    border-bottom:1px solid #e1e1e1  ;
+}
+
+.chungchi2{
+    width: 50%;
+    border-left:1px solid #e1e1e1   ;
+}
+.chungchi{
+    width: 100%;
+}
+
+.chungchi3{
+    display: inline-flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 50%;
+    /* border-top:1px solid #e1e1e1 */
+}
+
+.pchungchi{
+    line-height: 2;
+}
+
+.imgchungchi2{
+    padding-left: 50px;
+}
+
+
+.imgpj1{
+    height: 400px;
+    width: 363px;
+}
+
+.pj1{
+    /* display: flex; */
+    width: 31%;
+    border: #e1e1e1 1px solid;
+    
+}
+
+.pj11{
+    display:flex;
+    gap: 5px;
+    border-bottom:2px solid #e1e1e1;
+    padding: 10px;
+}
+
+.pj12{
+    display: flex;
+    gap: 62px;
+    border-bottom:2px solid #e1e1e1;
+    padding: 10px;
+}
+
+
+.pj13{
+    display: flex;
+    gap: 37px;
+    border-bottom:2px solid #e1e1e1;
+    padding: 10px;
+}
+
+
+.pj14{
+    display: flex;
+    width: min-content;
+    gap: 45px;
+    padding: 10px;
+}
+
+.cvcanhan{
+    text-transform:uppercase;
+    padding: 10px;
+    border-bottom:2px solid #e1e1e1;
+
+}
+
+
+.bigpj{
+    display: flex;
+    gap: 1%;
+    margin: auto;
+}
+
+
+.footer0{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: navy;
+}
